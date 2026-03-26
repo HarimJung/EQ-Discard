@@ -14,7 +14,7 @@ function extractVizName(url: string): string {
 }
 
 const TableauEmbed: React.FC<TableauEmbedProps> = ({
-  sourceUrl = "https://public.tableau.com/views/DiscardAlertFinal/Member",
+  sourceUrl = "https://public.tableau.com/views/DiscardAlert/Member",
   targetWidth = 1600,
   targetHeight = 1127
 }) => {
