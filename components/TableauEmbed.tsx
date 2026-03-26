@@ -8,7 +8,7 @@ interface TableauEmbedProps {
 }
 
 const TableauEmbed: React.FC<TableauEmbedProps> = ({
-  sourceUrl = "https://public.tableau.com/views/DiscardAlertFinal/Member",
+  sourceUrl = "https://public.tableau.com/app/profile/harim.jung/viz/DiscardAlertFinal/Member",
   targetWidth = 1600,
   targetHeight = 900
 }) => {
