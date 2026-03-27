@@ -37,15 +37,6 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate }) => {
             Discard Alert Dashboard
           </button>
 
-          <button
-            onClick={() => onNavigate('cherry-picking')}
-            className={`text-[14px] font-bold pb-1 ${currentPage === 'cherry-picking'
-              ? 'text-[#0077C8] border-b-2 border-[#0077C8]'
-              : 'text-gray-500 hover:text-[#0077C8]'
-              }`}
-          >
-            Cherry Picking Dashboard
-          </button>
 
           <button className="hidden sm:flex items-center space-x-1 border border-gray-200 rounded-full px-4 py-1.5 text-[12px] font-semibold text-[#002E72] hover:bg-gray-50 transition-colors">
             <span>PORTAL LOGIN</span>
