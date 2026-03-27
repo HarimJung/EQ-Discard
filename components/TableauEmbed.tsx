@@ -58,7 +58,7 @@ const TableauEmbed: React.FC<TableauEmbedProps> = ({
     vizElement.setAttribute('width', String(containerWidth));
     vizElement.setAttribute('height', String(containerHeight));
     vizElement.setAttribute('toolbar', 'bottom');
-    vizElement.setAttribute('hide-tabs', '');
+    vizElement.setAttribute('hide-tabs', 'true');
 
     container.appendChild(vizElement);
 
